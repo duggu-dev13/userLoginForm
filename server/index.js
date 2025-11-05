@@ -5,7 +5,7 @@ import bcrypt from 'bcryptjs';
 
 const app = express();
 const PORT = 5000;
-const MONGO_URI = 'mongodb+srv://admin-devs:Duggu%401308@100x-devs-db.iugbonm.mongodb.net/';
+const MONGO_URI = 'YOUR_API_KEY';
 
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
